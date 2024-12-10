@@ -1,0 +1,13 @@
+Subway Surfers Hand Gesture Control
+This project demonstrates the use of hand gestures to control the Subway Surfers game using a FastAPI backend and MediaPipe's pre-trained hand tracking model. The goal is to map specific hand gestures to game actions such as jump, roll down, move left, move right, and skateboard.
+
+Features
+Gesture Recognition: Recognize hand gestures such as jump, roll down, move left, and move right using MediaPipe's Hand Tracking model.
+API Integration: A FastAPI backend to handle video/image uploads, process them, and map gestures to actions.
+Real-Time Video Processing: The application processes input videos/images in real-time, identifying hand landmarks and detecting gestures.
+Gesture-to-Action Mapping: Custom logic to map hand gestures to specific actions in the game.
+Dependencies
+Python (>= 3.8)
+MediaPipe: A framework for building multimodal applied machine learning pipelines.
+OpenCV: Library for real-time computer vision.
+FastAPI: Modern, fast web framework for building APIs.
